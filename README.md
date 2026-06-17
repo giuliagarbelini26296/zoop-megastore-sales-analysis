@@ -1,15 +1,27 @@
-# zoop-megastore-sales-analysis
-End-to-end data analytics project involving data cleaning, SQL analysis, business intelligence dashboards and strategic insights using Python, Pandas, SQL and Power BI.
+# 📊 Zoop Megastore - Sales & Customer Analytics
 
-# Análise de Vendas e Clientes - Zoop Megastore
+## 📌 Overview
 
-## Objetivo
+This project was developed to analyze sales performance, customer behavior and business opportunities using a complete data analytics workflow.
 
-Este projeto foi desenvolvido com foco em análise de dados utilizando Python, SQL e Power BI.
+The analysis covers data cleaning, exploratory data analysis, SQL business queries and interactive dashboards to support strategic decision-making.
 
-O objetivo foi identificar padrões de vendas, produtos mais rentáveis, clientes de maior valor e oportunidades estratégicas para o negócio.
+---
 
-## Tecnologias Utilizadas
+## 🎯 Business Questions
+
+The project aims to answer the following questions:
+
+* How did sales perform during the first quarter?
+* Which product categories generated the highest revenue?
+* Who are the most valuable customers?
+* Which products contribute the most to revenue?
+* How do ZOOP Prime subscribers compare to non-subscribers?
+* What strategic actions could increase future revenue?
+
+---
+
+## 🛠 Technologies Used
 
 * Python
 * Pandas
@@ -17,40 +29,108 @@ O objetivo foi identificar padrões de vendas, produtos mais rentáveis, cliente
 * SQL
 * Power BI
 
-## Etapas do Projeto
+---
 
-### 1. Exploração e Limpeza de Dados
+## 📂 Project Structure
 
-* Verificação de dados ausentes
-* Identificação de registros duplicados
-* Criação da variável de faturamento
-* Análise temporal das vendas
+```text
+├── data/
+│   ├── clientes.csv
+│   └── vendas.csv
+│
+├── notebooks/
+│   └── exploratory_analysis.ipynb
+│
+├── sql/
+│   └── business_queries.sql
+│
+├── dashboard/
+│   ├── sales_dashboard.png
+│   └── strategic_dashboard.png
+│
+└── README.md
+```
 
-### 2. Análise SQL
+---
 
-Consultas desenvolvidas para identificar:
+## 🔎 Exploratory Data Analysis
 
-* Top 5 produtos por faturamento
-* Top 5 clientes por faturamento
-* Comparação entre clientes Prime e Não Prime
+Key activities performed:
 
-### 3. Dashboard Executivo
+* Data quality assessment
+* Missing values verification
+* Duplicate records validation
+* Revenue calculation
+* Monthly sales trend analysis
+* Revenue distribution by product category
 
-Indicadores desenvolvidos:
+### Revenue Formula
 
-* Faturamento Total
-* Média de Faturamento por Cliente
-* Evolução mensal das vendas
-* Desempenho por categoria
-* Análise regional de faturamento
+Revenue was calculated as:
 
-## Principais Insights
+Revenue = Unit Price × Quantity Sold
 
-* A categoria Periféricos apresentou o maior faturamento do período.
-* A Mesa Digitalizadora foi o produto com maior geração de receita.
-* O faturamento apresentou crescimento contínuo ao longo do trimestre.
-* Os clientes não assinantes apresentaram faturamento médio superior aos assinantes Prime.
+---
 
-## Autor
+## 🗄 SQL Analysis
+
+Business queries were developed to identify:
+
+### Top 5 Products by Revenue
+
+* Digital Drawing Tablet
+* Gaming Notebook
+* LED Desk Lamp
+* Wireless Gaming Mouse
+* Book: A Game of Thrones
+
+### Top 5 Customers by Revenue
+
+Customer spending was aggregated to identify the highest-value clients.
+
+### Prime vs Non-Prime Analysis
+
+Customer purchase behavior was compared between subscribers and non-subscribers.
+
+---
+
+## 📈 Dashboard Highlights
+
+The dashboard includes:
+
+* Total Revenue
+* Average Revenue per Customer
+* Monthly Revenue Trend
+* Top Products Ranking
+* Revenue by State
+* Product Category Performance
+* Prime vs Non-Prime Comparison
+
+---
+
+## 💡 Key Insights
+
+* Revenue increased consistently throughout the quarter.
+* Peripherals generated the highest revenue among all categories.
+* The Digital Drawing Tablet was the best-performing product.
+* A small group of customers generated a significant portion of total revenue.
+* Non-Prime customers showed higher average revenue than Prime customers during the analyzed period.
+
+---
+
+## 🚀 Strategic Recommendations
+
+Based on the analysis:
+
+* Increase marketing investment in high-performing categories such as Peripherals and Electronics.
+* Develop customer retention campaigns targeting top-spending customers.
+* Reevaluate the ZOOP Prime program to improve subscriber engagement and spending.
+* Focus commercial efforts on the best-performing regions identified in the analysis.
+
+---
+
+## 👩‍💻 Author
 
 Giulia Maria
+
+Data Analytics Project developed as part of a professional data analytics training program.
