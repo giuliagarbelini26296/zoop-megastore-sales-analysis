@@ -1,0 +1,225 @@
+-- ============================================================
+-- CRIAÇÃO E CARGA DAS TABELAS
+-- ============================================================
+
+CREATE TABLE clientes (c1 TEXT, c2 TEXT, c3 TEXT, c4 TEXT, c5 TEXT);
+
+INSERT INTO clientes (c1,c2,c3,c4,c5) VALUES 
+ ('101','Enzo Gomes','enzo.gomes@email.com','GO','Não'), 
+ ('102','Heloísa Alves','heloísa.alves@email.com','SC','Não'), 
+ ('103','Marcos Correia','marcos.correia@email.com','SC','Não'), 
+ ('104','Luiza Silva','luiza.silva@email.com','SC','Não'), 
+ ('105','Luiza Machado','luiza.machado@email.com','SC','Não'), 
+ ('106','Daniel Alves','daniel.alves@email.com','BA','Não'), 
+ ('107','Rafaela Reis','rafaela.reis@email.com','RS','Sim'), 
+ ('108','Ana Gomes','ana.gomes@email.com','DF','Sim'), 
+ ('109','Carla Melo','carla.melo@email.com','PE','Não'), 
+ ('110','Daniel Pereira','daniel.pereira@email.com','GO','Sim'), 
+ ('111','Victor Dias','victor.dias@email.com','SC','Sim'), 
+ ('112','Pedro Santos','pedro.santos@email.com','SC','Não'), 
+ ('113','Nicole Pereira','nicole.pereira@email.com','SC','Não'), 
+ ('114','Larissa Fernandes','larissa.fernandes@email.com','BA','Sim'), 
+ ('115','Gabriela Correia','gabriela.correia@email.com','GO','Não'), 
+ ('116','Patrícia Machado','patrícia.machado@email.com','RS','Não'), 
+ ('117','Eduarda Reis','eduarda.reis@email.com','RJ','Não'), 
+ ('118','Heloísa Gomes','heloísa.gomes@email.com','PR','Sim'), 
+ ('119','Gabriela Rocha','gabriela.rocha@email.com','MG','Sim'), 
+ ('120','Isabela Lima','isabela.lima@email.com','RJ','Não'), 
+ ('121','Isabela Machado','isabela.machado@email.com','RS','Não'), 
+ ('122','Heloísa Gonçalves','heloísa.gonçalves@email.com','GO','Não'), 
+ ('123','Eloá Cardoso','eloá.cardoso@email.com','MG','Sim'), 
+ ('124','Felipe Pereira','felipe.pereira@email.com','RS','Não'), 
+ ('125','Bernardo Melo','bernardo.melo@email.com','GO','Não'), 
+ ('126','Isabela Freitas','isabela.freitas@email.com','RJ','Não'), 
+ ('127','Quezia Silva','quezia.silva@email.com','SP','Sim'), 
+ ('128','Carla Nunes','carla.nunes@email.com','RS','Sim'), 
+ ('129','Caio Machado','caio.machado@email.com','DF','Não'), 
+ ('130','Thiago Dias','thiago.dias@email.com','SC','Sim'), 
+ ('131','Davi Martins','davi.martins@email.com','MG','Sim'), 
+ ('132','Quezia Silva','quezia.silva@email.com','GO','Não'), 
+ ('133','Gabriela Moura','gabriela.moura@email.com','MG','Não'), 
+ ('134','William Silva','william.silva@email.com','SP','Não'), 
+ ('135','Luiza Barbosa','luiza.barbosa@email.com','SC','Não'), 
+ ('136','Samuel Correia','samuel.correia@email.com','MG','Não'), 
+ ('137','João Pinto','joão.pinto@email.com','BA','Não'), 
+ ('138','Bruno Nunes','bruno.nunes@email.com','SC','Não'), 
+ ('139','Tainá Dias','tainá.dias@email.com','SP','Sim'), 
+ ('140','Heloísa Melo','heloísa.melo@email.com','BA','Não'), 
+ ('141','Tainá Araújo','tainá.araújo@email.com','BA','Não'), 
+ ('142','Felipe Gonçalves','felipe.gonçalves@email.com','DF','Sim'), 
+ ('143','Gabriela Lima','gabriela.lima@email.com','PE','Não'), 
+ ('144','Daniel Cardoso','daniel.cardoso@email.com','BA','Não'), 
+ ('145','Arthur Silva','arthur.silva@email.com','DF','Não'), 
+ ('146','Clara Gonçalves','clara.gonçalves@email.com','RJ','Não'), 
+ ('147','Fábio Alves','fábio.alves@email.com','MG','Não'), 
+ ('148','Eloá Mendes','eloá.mendes@email.com','PE','Não'), 
+ ('149','Vanessa Cardoso','vanessa.cardoso@email.com','SC','Sim'), 
+ ('150','Eduarda Gomes','eduarda.gomes@email.com','SC','Não');
+
+CREATE TABLE vendas (c1 TEXT, c2 TEXT, c3 TEXT, c4 TEXT, c5 TEXT, c6 TEXT, c7 TEXT, c8 TEXT);
+
+INSERT INTO vendas (c1,c2,c3,c4,c5,c6,c7,c8) VALUES 
+ ('1','2023-02-07','109','8','Livro: A Guerra dos Tronos','Livros','2677.12','2'), 
+ ('2','2023-01-11','139','7','Headset Surround 7.1','Áudio','1210.1','1'), 
+ ('3','2023-02-16','104','17','Mousepad Gamer XXL','Periféricos','2393.06','2'), 
+ ('4','2023-03-20','145','17','Mousepad Gamer XXL','Periféricos','3925.92','3'), 
+ ('5','2023-02-16','134','16','Memória RAM 16GB DDR5','Componentes','4702.89','1'), 
+ ('6','2023-01-20','108','11','Luminária de Mesa LED','Decoração','4625.05','1'), 
+ ('7','2023-03-22','130','19','Livro: Duna','Livros','2980.27','1'), 
+ ('8','2023-02-20','119','10','Mesa Digitalizadora','Periféricos','4666.04','1'), 
+ ('9','2023-02-12','108','10','Mesa Digitalizadora','Periféricos','1145.25','4'), 
+ ('10','2023-02-09','117','16','Memória RAM 16GB DDR5','Componentes','1196.31','4'), 
+ ('11','2023-02-16','140','16','Memória RAM 16GB DDR5','Componentes','3642.34','3'), 
+ ('12','2023-02-20','118','10','Mesa Digitalizadora','Periféricos','3163.4','3'), 
+ ('13','2023-01-02','126','2','Smartphone Pro','Eletrônicos','1263.49','4'), 
+ ('14','2023-01-02','124','6','Mouse Gamer Sem Fio','Periféricos','3421.58','4'), 
+ ('15','2023-03-05','143','1','Notebook Gamer','Eletrônicos','3374.03','4'), 
+ ('16','2023-03-16','142','18','Livro: O Senhor dos Anéis','Livros','4009.95','3'), 
+ ('17','2023-01-26','122','4','Monitor Ultrawide 34"','Periféricos','4952.4','3'), 
+ ('18','2023-01-09','126','17','Mousepad Gamer XXL','Periféricos','2790.08','2'), 
+ ('19','2023-03-08','118','4','Monitor Ultrawide 34"','Periféricos','2750.54','1'), 
+ ('20','2023-03-13','135','4','Monitor Ultrawide 34"','Periféricos','2230.8','2'), 
+ ('21','2023-02-05','129','12','Action Figure: Batman','Colecionáveis','4127.64','1'), 
+ ('22','2023-03-29','123','18','Livro: O Senhor dos Anéis','Livros','2382.12','2'), 
+ ('23','2023-02-22','113','1','Notebook Gamer','Eletrônicos','4548.53','3'), 
+ ('24','2023-02-27','121','5','Teclado Mecânico RGB','Periféricos','1858.35','3'), 
+ ('25','2023-01-03','117','2','Smartphone Pro','Eletrônicos','2492.17','1'), 
+ ('26','2023-03-06','136','15','Placa de Vídeo RTX 4070','Componentes','55.02','3'), 
+ ('27','2023-01-23','143','12','Action Figure: Batman','Colecionáveis','2207.99','1'), 
+ ('28','2023-03-12','116','1','Notebook Gamer','Eletrônicos','3396.5','4'), 
+ ('29','2023-03-03','138','1','Notebook Gamer','Eletrônicos','2195.8','1'), 
+ ('30','2023-02-14','119','9','Webcam 4K','Periféricos','4976.81','1'), 
+ ('31','2023-02-15','120','11','Luminária de Mesa LED','Decoração','4044.7','3'), 
+ ('32','2023-02-24','111','14','SSD NVMe 1TB','Componentes','1879.45','1'), 
+ ('33','2023-03-24','123','19','Livro: Duna','Livros','4276.7','1'), 
+ ('34','2023-03-05','149','4','Monitor Ultrawide 34"','Periféricos','4579.35','1'), 
+ ('35','2023-02-21','125','13','Caneca Star Wars','Decoração','1231.06','3'), 
+ ('36','2023-01-25','112','2','Smartphone Pro','Eletrônicos','3887.54','4'), 
+ ('37','2023-03-25','111','10','Mesa Digitalizadora','Periféricos','281.98','2'), 
+ ('38','2023-03-08','117','5','Teclado Mecânico RGB','Periféricos','4079.7','2'), 
+ ('39','2023-02-07','137','12','Action Figure: Batman','Colecionáveis','3751.27','3'), 
+ ('40','2023-02-23','122','15','Placa de Vídeo RTX 4070','Componentes','2767.15','2'), 
+ ('41','2023-03-28','127','13','Caneca Star Wars','Decoração','3945.44','4'), 
+ ('42','2023-03-22','113','12','Action Figure: Batman','Colecionáveis','2834.81','4'), 
+ ('43','2023-02-05','120','4','Monitor Ultrawide 34"','Periféricos','1732.21','1'), 
+ ('44','2023-01-13','115','15','Placa de Vídeo RTX 4070','Componentes','2631.97','1'), 
+ ('45','2023-03-16','137','18','Livro: O Senhor dos Anéis','Livros','3208.04','3'), 
+ ('46','2023-03-04','111','15','Placa de Vídeo RTX 4070','Componentes','753.66','2'), 
+ ('47','2023-02-17','120','19','Livro: Duna','Livros','4121.3','2'), 
+ ('48','2023-01-01','135','4','Monitor Ultrawide 34"','Periféricos','3835.24','3'), 
+ ('49','2023-02-04','131','13','Caneca Star Wars','Decoração','3558.07','3'), 
+ ('50','2023-02-27','128','19','Livro: Duna','Livros','731.07','1'), 
+ ('51','2023-02-18','143','1','Notebook Gamer','Eletrônicos','410.05','4'), 
+ ('52','2023-03-21','101','13','Caneca Star Wars','Decoração','432.53','3'), 
+ ('53','2023-02-23','106','10','Mesa Digitalizadora','Periféricos','2118.65','1'), 
+ ('54','2023-03-07','132','18','Livro: O Senhor dos Anéis','Livros','719.13','4'), 
+ ('55','2023-03-30','146','11','Luminária de Mesa LED','Decoração','4381.75','4'), 
+ ('56','2023-03-07','139','10','Mesa Digitalizadora','Periféricos','4973.79','4'), 
+ ('57','2023-01-14','147','6','Mouse Gamer Sem Fio','Periféricos','4793.84','1'), 
+ ('58','2023-01-27','117','14','SSD NVMe 1TB','Componentes','1247.8','1'), 
+ ('59','2023-02-23','133','15','Placa de Vídeo RTX 4070','Componentes','312.61','3'), 
+ ('60','2023-02-22','143','4','Monitor Ultrawide 34"','Periféricos','3904.65','4'), 
+ ('61','2023-02-18','138','7','Headset Surround 7.1','Áudio','2850.88','2'), 
+ ('62','2023-02-14','138','10','Mesa Digitalizadora','Periféricos','4908.99','4'), 
+ ('63','2023-01-22','147','8','Livro: A Guerra dos Tronos','Livros','4232.96','4'), 
+ ('64','2023-02-21','103','19','Livro: Duna','Livros','2972.38','4'), 
+ ('65','2023-01-30','134','3','Cadeira Gamer Ergonômica','Móveis','97.49','1'), 
+ ('66','2023-01-23','134','19','Livro: Duna','Livros','4192.37','4'), 
+ ('67','2023-01-22','129','10','Mesa Digitalizadora','Periféricos','2441.44','2'), 
+ ('68','2023-01-26','115','10','Mesa Digitalizadora','Periféricos','3405.86','2'), 
+ ('69','2023-01-28','126','3','Cadeira Gamer Ergonômica','Móveis','1018.43','2'), 
+ ('70','2023-01-19','112','9','Webcam 4K','Periféricos','4035.9','3'), 
+ ('71','2023-02-18','124','6','Mouse Gamer Sem Fio','Periféricos','2061.35','3'), 
+ ('72','2023-03-10','123','8','Livro: A Guerra dos Tronos','Livros','871.29','1'), 
+ ('73','2023-02-20','139','1','Notebook Gamer','Eletrônicos','615.21','1'), 
+ ('74','2023-02-14','126','12','Action Figure: Batman','Colecionáveis','3410.99','2'), 
+ ('75','2023-02-12','128','2','Smartphone Pro','Eletrônicos','3302.98','4'), 
+ ('76','2023-03-10','133','6','Mouse Gamer Sem Fio','Periféricos','3531.04','1'), 
+ ('77','2023-02-02','126','17','Mousepad Gamer XXL','Periféricos','562.27','2'), 
+ ('78','2023-01-10','131','8','Livro: A Guerra dos Tronos','Livros','1240.04','3'), 
+ ('79','2023-02-11','115','1','Notebook Gamer','Eletrônicos','2929.51','3'), 
+ ('80','2023-03-11','146','13','Caneca Star Wars','Decoração','2325.93','2'), 
+ ('81','2023-02-23','134','13','Caneca Star Wars','Decoração','2631.9','1'), 
+ ('82','2023-03-29','111','1','Notebook Gamer','Eletrônicos','2603.06','1'), 
+ ('83','2023-01-31','109','12','Action Figure: Batman','Colecionáveis','3515.32','3'), 
+ ('84','2023-02-26','118','6','Mouse Gamer Sem Fio','Periféricos','4485.8','4'), 
+ ('85','2023-03-01','127','6','Mouse Gamer Sem Fio','Periféricos','1553.11','4'), 
+ ('86','2023-03-07','135','8','Livro: A Guerra dos Tronos','Livros','2599.11','1'), 
+ ('87','2023-03-05','142','7','Headset Surround 7.1','Áudio','3853.96','1'), 
+ ('88','2023-03-17','116','10','Mesa Digitalizadora','Periféricos','3935.51','4'), 
+ ('89','2023-03-29','128','10','Mesa Digitalizadora','Periféricos','2751.98','3'), 
+ ('90','2023-03-03','105','7','Headset Surround 7.1','Áudio','2771.67','4'), 
+ ('91','2023-01-17','106','13','Caneca Star Wars','Decoração','3816.47','2'), 
+ ('92','2023-01-30','124','4','Monitor Ultrawide 34"','Periféricos','208.2','3'), 
+ ('93','2023-01-17','105','14','SSD NVMe 1TB','Componentes','1149.19','1'), 
+ ('94','2023-03-19','134','1','Notebook Gamer','Eletrônicos','4692.68','2'), 
+ ('95','2023-02-14','113','3','Cadeira Gamer Ergonômica','Móveis','2211.13','1'), 
+ ('96','2023-02-12','133','9','Webcam 4K','Periféricos','332.56','1'), 
+ ('97','2023-03-04','124','2','Smartphone Pro','Eletrônicos','3527.63','3'), 
+ ('98','2023-01-15','149','6','Mouse Gamer Sem Fio','Periféricos','813.72','3'), 
+ ('99','2023-01-17','113','9','Webcam 4K','Periféricos','2580.22','1'), 
+ ('100','2023-03-05','101','12','Action Figure: Batman','Colecionáveis','2852.01','2'), 
+ ('101','2023-02-02','130','7','Headset Surround 7.1','Áudio','1753.49','2'), 
+ ('102','2023-01-16','123','18','Livro: O Senhor dos Anéis','Livros','2198.71','4'), 
+ ('103','2023-03-28','101','8','Livro: A Guerra dos Tronos','Livros','4244.37','3'), 
+ ('104','2023-02-03','125','17','Mousepad Gamer XXL','Periféricos','2443.1','4'), 
+ ('105','2023-02-27','143','8','Livro: A Guerra dos Tronos','Livros','1308.5','2'), 
+ ('106','2023-02-05','111','12','Action Figure: Batman','Colecionáveis','3657.82','1'), 
+ ('107','2023-03-13','127','3','Cadeira Gamer Ergonômica','Móveis','1868.93','2'), 
+ ('108','2023-03-28','107','6','Mouse Gamer Sem Fio','Periféricos','3595.22','1'), 
+ ('109','2023-01-24','121','11','Luminária de Mesa LED','Decoração','4656.53','4'), 
+ ('110','2023-02-17','110','10','Mesa Digitalizadora','Periféricos','3500.53','3'), 
+ ('111','2023-01-10','124','7','Headset Surround 7.1','Áudio','3921.99','1'), 
+ ('112','2023-01-26','114','10','Mesa Digitalizadora','Periféricos','1514.34','3'), 
+ ('113','2023-01-01','115','1','Notebook Gamer','Eletrônicos','4042.19','3'), 
+ ('114','2023-02-16','114','13','Caneca Star Wars','Decoração','348.81','4'), 
+ ('115','2023-03-07','126','8','Livro: A Guerra dos Tronos','Livros','3829.35','3'), 
+ ('116','2023-01-26','143','19','Livro: Duna','Livros','991.78','1'), 
+ ('117','2023-01-07','103','10','Mesa Digitalizadora','Periféricos','4726.9','2'), 
+ ('118','2023-03-07','101','11','Luminária de Mesa LED','Decoração','4242.74','2'), 
+ ('119','2023-01-24','128','9','Webcam 4K','Periféricos','800.63','3'), 
+ ('120','2023-03-27','105','17','Mousepad Gamer XXL','Periféricos','772.04','4');
+
+-- ============================================================
+-- QUERIES DE ANÁLISE
+-- ============================================================
+
+-- Contagem de clientes
+SELECT COUNT(*) AS total_clientes FROM clientes;
+
+-- Contagem de vendas
+SELECT COUNT(*) AS total_vendas FROM vendas;
+
+-- Amostra das tabelas
+SELECT * FROM clientes LIMIT 5;
+SELECT * FROM vendas LIMIT 5;
+
+-- Colunas específicas de vendas
+SELECT c5, c7, c8 FROM vendas LIMIT 5;
+
+-- Top 5 produtos por faturamento
+SELECT
+    c5 AS produto,
+    SUM(CAST(c7 AS REAL) * CAST(c8 AS INTEGER)) AS faturamento
+FROM vendas
+GROUP BY c5
+ORDER BY faturamento DESC
+LIMIT 5;
+
+-- Top 5 clientes por total gasto
+SELECT
+    c.c2 AS nome_cliente,
+    SUM(CAST(v.c7 AS REAL) * CAST(v.c8 AS INTEGER)) AS total_gasto
+FROM vendas v
+JOIN clientes c ON v.c3 = c.c1
+GROUP BY c.c2
+ORDER BY total_gasto DESC
+LIMIT 5;
+
+-- Faturamento médio por plano de assinatura
+SELECT
+    c.c5 AS plano_assinatura,
+    AVG(CAST(v.c7 AS REAL) * CAST(v.c8 AS INTEGER)) AS media_faturamento
+FROM vendas v
+JOIN clientes c ON v.c3 = c.c1
+GROUP BY c.c5;
