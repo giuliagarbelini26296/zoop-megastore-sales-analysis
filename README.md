@@ -4,9 +4,10 @@
 
 This project was developed as part of the Data Analytics training program offered by Alura.
 
-The objective was to apply data analysis techniques in a business scenario, including data cleaning, exploratory analysis, SQL queries and dashboard development to support decision-making.
+The objective was to apply data analysis techniques in a business scenario, including data cleaning, exploratory analysis, SQL queries and dashboard development to support decision-making. 
 
 Throughout the project, tools such as Python, Pandas, SQL and Power BI were used to transform raw data into actionable business insights.
+
 ---
 
 ## 🎯 Business Questions
