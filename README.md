@@ -36,6 +36,10 @@ The project aims to answer the following questions:
 ## 📂 Project Structure
 
 ```text
+zoop-megastore-sales-analysis/
+│
+├── README.md
+│
 ├── data/
 │   ├── clientes.csv
 │   └── vendas.csv
@@ -47,10 +51,13 @@ The project aims to answer the following questions:
 │   └── business_queries.sql
 │
 ├── dashboard/
-│   ├── sales_dashboard.png
-│   └── strategic_dashboard.png
+│   ├── dashboard_operacional.png
+│   └── dashboard_estrategico.png
 │
-└── README.md
+└── docs/
+    ├── python_analysis.md
+    ├── sql_analysis.md
+    └── powerbi_analysis.md
 ```
 
 ---
