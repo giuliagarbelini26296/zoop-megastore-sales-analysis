@@ -148,11 +148,10 @@ Skills Applied:
 
 Data Cleaning
 Exploratory Data Analysis (EDA)
-SQL Queries
+SQL Querying
 Business Intelligence
 Dashboard Development
 Data Storytelling
-Business Insights
 
 ---
 
