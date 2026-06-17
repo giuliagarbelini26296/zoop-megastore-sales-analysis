@@ -2,10 +2,11 @@
 
 ## 📌 Overview
 
-This project was developed to analyze sales performance, customer behavior and business opportunities using a complete data analytics workflow.
+This project was developed as part of the Data Analytics training program offered by Alura.
 
-The analysis covers data cleaning, exploratory data analysis, SQL business queries and interactive dashboards to support strategic decision-making.
+The objective was to apply data analysis techniques in a business scenario, including data cleaning, exploratory analysis, SQL queries and dashboard development to support decision-making.
 
+Throughout the project, tools such as Python, Pandas, SQL and Power BI were used to transform raw data into actionable business insights.
 ---
 
 ## 🎯 Business Questions
@@ -129,8 +130,26 @@ Based on the analysis:
 
 ---
 
+🎓 Course Information
+
+Program: Data Analytics - Alura
+
+Project: Stage 1 – Sales and Customer Analysis
+
+Skills Applied:
+
+Data Cleaning
+Exploratory Data Analysis (EDA)
+SQL Queries
+Business Intelligence
+Dashboard Development
+Data Storytelling
+Business Insights
+
+---
+
 ## 👩‍💻 Author
 
-Giulia Maria
+Giulia Maria Garbelini Ribeiro
 
 Data Analytics Project developed as part of a professional data analytics training program.
